@@ -3,7 +3,7 @@ The Mechanic-Side of an automatic SMT Pick&Place-System
 
 Programm: Siemens-NX Mechanik und Konstruktion eines voll automatischen, schnellen, 4-Spindel SMT-Pick&Place Systems.
 
-Ordner "PickAndPlace": NX-Daten für die Konstruktion, Nomenklatur: (%Bestandteil)(%Nummer)(%V)(%Fertigungsart)(%Material).prt 
+Ordner "PickAndPlace": NX-Daten für die Konstruktion, Nomenklatur: (%Bestandteil)(%Nummer)(%V) _ (%Fertigungsart) _ (%Material).prt 
 
 %Bestandteile: (Ein Großer Buchstabe)
         A-F Hauptbestandteile nach Größe/Funktion 
