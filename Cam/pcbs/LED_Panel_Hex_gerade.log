@@ -1,0 +1,265 @@
+STEP to UG
+! INFO-     NX STEP AP203 - V9.0
+! INFO-      
+! INFO-     Start of Translation: 30-DEC-2019  3:47:37 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\LED_Panel_Hex_gerade.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      KiCad electronic assembly
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        LED_Panel_Hex_gerade.step
+! SUMMARY-  Date             2019-12-29T20:43:45
+! SUMMARY-  Author           An Author
+! SUMMARY-  Organization     A Company
+! SUMMARY-  Pre_Version      Open CASCADE STEP processor 6.9
+! SUMMARY-  Orig_System      KiCad to STEP converter
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:      6
+! SUMMARY-  advanced_face ..............................................:    538
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  application_protocol_definition ............................:      1
+! SUMMARY-  axis2_placement_2d .........................................:      4
+! SUMMARY-  axis2_placement_3d .........................................:     40
+! SUMMARY-  b_spline_curve_with_knots ..................................:   3989
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    463
+! SUMMARY-  b_spline_surface_with_knots ................................:    414
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    114
+! SUMMARY-  cartesian_point ............................................:  14160
+! SUMMARY-  circle .....................................................:      8
+! SUMMARY-  closed_shell ...............................................:      6
+! SUMMARY-  context_dependent_shape_representation .....................:     25
+! SUMMARY-  cylindrical_surface ........................................:      2
+! SUMMARY-  definitional_representation ................................:   3016
+! SUMMARY-  direction ..................................................:    148
+! SUMMARY-  edge_curve .................................................:   1508
+! SUMMARY-  edge_loop ..................................................:    557
+! SUMMARY-  face_bound .................................................:    557
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     12
+! SUMMARY-  item_defined_transformation ................................:     25
+! SUMMARY-  length_unit_and_si_unit ....................................:     12
+! SUMMARY-  line .......................................................:     64
+! SUMMARY-  manifold_solid_brep ........................................:      6
+! SUMMARY-  next_assembly_usage_occurrence .............................:     25
+! SUMMARY-  oriented_edge ..............................................:   3016
+! SUMMARY-  pcurve .....................................................:   3016
+! SUMMARY-  plane ......................................................:      8
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     12
+! SUMMARY-  product ....................................................:     12
+! SUMMARY-  product_context ............................................:     12
+! SUMMARY-  product_definition .........................................:     12
+! SUMMARY-  product_definition_context .................................:     12
+! SUMMARY-  product_definition_formation ...............................:     12
+! SUMMARY-  product_definition_shape ...................................:     37
+! SUMMARY-  product_related_product_category ...........................:     12
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     25
+! SUMMARY-  seam_curve .................................................:      3
+! SUMMARY-  shape_definition_representation ............................:     13
+! SUMMARY-  shape_representation .......................................:      7
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     12
+! SUMMARY-  surface_curve ..............................................:   1505
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     12
+! SUMMARY-  vector .....................................................:     64
+! SUMMARY-  vertex_point ...............................................:    979
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          34482
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 30-DEC-2019 3:47:37 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 36825
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\COMPOUND36824
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 15497
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\SOLID15496
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:39 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 13775
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\SOLID13774
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:39 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 12058
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\SOLID12057
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:39 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 7534
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\SOLID7533
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:40 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 119
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\SOLID118
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:41 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\micromatch_smd_6pin15486
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:41 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\R_0805_2012Metric13764
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:41 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\R_1206_3216Metric12047
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:42 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\SOT-237523
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:42 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\PLCC-2108
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-DEC-2019  3:47:42 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\pcbs\LED_Panel_Hex_gerade_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    20
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             20
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         6
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         6
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 30-DEC-2019  3:47:42 PM
+! INFO-      
