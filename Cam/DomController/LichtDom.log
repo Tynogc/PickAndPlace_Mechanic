@@ -1,0 +1,698 @@
+STEP to UG
+! INFO-     NX STEP AP203 - V9.0
+! INFO-      
+! INFO-     Start of Translation: 13-JAN-2020  7:16:36 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\LichtDom.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      KiCad electronic assembly
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        LichtDom.step
+! SUMMARY-  Date             2019-12-31T17:15:08
+! SUMMARY-  Author           An Author
+! SUMMARY-  Organization     A Company
+! SUMMARY-  Pre_Version      Open CASCADE STEP processor 6.9
+! SUMMARY-  Orig_System      KiCad to STEP converter
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:     17
+! SUMMARY-  advanced_face ..............................................:   3794
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  application_protocol_definition ............................:      1
+! SUMMARY-  axis2_placement_2d .........................................:    212
+! SUMMARY-  axis2_placement_3d .........................................:    386
+! SUMMARY-  b_spline_curve_with_knots ..................................:  26461
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:   1814
+! SUMMARY-  b_spline_surface_with_knots ................................:   3236
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    444
+! SUMMARY-  cartesian_point ............................................:  85422
+! SUMMARY-  circle .....................................................:    424
+! SUMMARY-  closed_shell ...............................................:     23
+! SUMMARY-  context_dependent_shape_representation .....................:     59
+! SUMMARY-  cylindrical_surface ........................................:    106
+! SUMMARY-  definitional_representation ................................:  19522
+! SUMMARY-  direction ..................................................:   1568
+! SUMMARY-  edge_curve .................................................:   9761
+! SUMMARY-  edge_loop ..................................................:   4270
+! SUMMARY-  face_bound .................................................:   4270
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     40
+! SUMMARY-  item_defined_transformation ................................:     59
+! SUMMARY-  length_unit_and_si_unit ....................................:     40
+! SUMMARY-  line .......................................................:    584
+! SUMMARY-  manifold_solid_brep ........................................:     23
+! SUMMARY-  next_assembly_usage_occurrence .............................:     59
+! SUMMARY-  oriented_edge ..............................................:  19522
+! SUMMARY-  pcurve .....................................................:  19522
+! SUMMARY-  plane ......................................................:      8
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     40
+! SUMMARY-  product ....................................................:     40
+! SUMMARY-  product_context ............................................:     40
+! SUMMARY-  product_definition .........................................:     40
+! SUMMARY-  product_definition_context .................................:     40
+! SUMMARY-  product_definition_formation ...............................:     40
+! SUMMARY-  product_definition_shape ...................................:     99
+! SUMMARY-  product_related_product_category ...........................:     40
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     59
+! SUMMARY-  seam_curve .................................................:    130
+! SUMMARY-  shape_definition_representation ............................:     41
+! SUMMARY-  shape_representation .......................................:     24
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     40
+! SUMMARY-  surface_curve ..............................................:   9631
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     40
+! SUMMARY-  vector .....................................................:    584
+! SUMMARY-  vertex_point ...............................................:   6255
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         218831
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 13-JAN-2020 7:16:38 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:40 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 228944
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\COMPOUND228943
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:40 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 227095
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID227094
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:41 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 223763
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID223762
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:41 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 221907
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID221906
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:42 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 220036
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID220035
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:42 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 217386
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID217385
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:43 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 212964
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID212963
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:43 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 207979
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID207978
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:44 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 204754
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID204753
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:44 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 117182
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID117181
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:50 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 74128
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID74127
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:53 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 54534
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID54533
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:55 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 46410
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID46409
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:56 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 42376
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 43140
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\COMPOUND42375
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:56 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 38377
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 39141
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\COMPOUND38376
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:57 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 34383
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 35147
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\COMPOUND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:57 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 24410
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID24409
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:16:58 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 6435
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID6434
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:00 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1911
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID1910
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:00 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 199
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOLID
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:01 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\C_1206_3216Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:01 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\CP_Elec_6.3x7.7
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:01 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\C_0603_1608Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:01 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\C_0805_2012Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:02 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\D_SMB
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:02 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\WS2812_RGB_LED_updated
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:02 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:02 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\LED_0603_1608Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:02 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\PinSocket_2x20_P2.54mm_Horizontal
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:03 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\IDC-Header_2x17_P2.54mm_Horizontal
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:03 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\IDC-Header_2x07_P2.54mm_Horizontal
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:03 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\PinSocket_1x04_P2.54mm_Vertical
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:03 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\Test_Point_Keystone_-_5003_ORANGE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:04 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\Test_Point_Keystone_-_5118_GREY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:04 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\Test_Point_Keystone_-_5000_RED
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:04 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOIC-8_3.9x4.9mm_P1.27mm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:04 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOIC-16W_5.3x10.2mm_P1.27mm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:05 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\SOT-23
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:05 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\R_0603_1608Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JAN-2020  7:17:05 PM
+! INFO-     Filing Part ..: C:\Users\Sven Schneider\Documents\NX\PickAndPlace\PickAndPlace_Mechanic\Cam\DomController\LichtDom_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    40
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             40
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        23
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        23
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 13-JAN-2020  7:17:07 PM
+! INFO-      
